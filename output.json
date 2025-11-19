@@ -1,0 +1,521 @@
+{
+    "summary": {
+        "total_shipments": 49,
+        "valid_shipments": 29,
+        "invalid_shipments": 20,
+        "total_anomalies": 29
+    },
+    "shipments": [
+        {
+            "shipment_no": "SHIP001",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP002",
+            "status": "invalid",
+            "current_status": "1220",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1900",
+                    "message": "Cannot transition from 1010 to 1900",
+                    "event_index": 1
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1220",
+                    "message": "Cannot transition from 1900 to 1220",
+                    "event_index": 2
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP003",
+            "status": "valid",
+            "current_status": "1200",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP004",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1010 to 1250",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP005",
+            "status": "invalid",
+            "current_status": "2030",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "2000",
+                    "message": "Cannot transition from 1900 to 2000",
+                    "event_index": 5
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2000",
+                    "to_status": "2020",
+                    "message": "Cannot transition from 2000 to 2020",
+                    "event_index": 6
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2020",
+                    "to_status": "2030",
+                    "message": "Cannot transition from 2020 to 2030",
+                    "event_index": 7
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP006",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP007",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP008",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP009",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP010",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP011",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP012",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP013",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP014",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP015",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP016",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP017",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP018",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP019",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP020",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP021",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP022",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP023",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP024",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP025",
+            "status": "valid",
+            "current_status": "1900",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP026",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1010 to 1250",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP027",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1010 to 1250",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP028",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1010 to 1250",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP029",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1200",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1200 to 1250",
+                    "event_index": 2
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP030",
+            "status": "invalid",
+            "current_status": "1250",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1250",
+                    "message": "Cannot transition from 1010 to 1250",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP031",
+            "status": "invalid",
+            "current_status": "2030",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "2000",
+                    "message": "Cannot transition from 1900 to 2000",
+                    "event_index": 5
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2000",
+                    "to_status": "2020",
+                    "message": "Cannot transition from 2000 to 2020",
+                    "event_index": 6
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2020",
+                    "to_status": "2030",
+                    "message": "Cannot transition from 2020 to 2030",
+                    "event_index": 7
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP032",
+            "status": "invalid",
+            "current_status": "2030",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "2000",
+                    "message": "Cannot transition from 1900 to 2000",
+                    "event_index": 5
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2000",
+                    "to_status": "2020",
+                    "message": "Cannot transition from 2000 to 2020",
+                    "event_index": 6
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2020",
+                    "to_status": "2030",
+                    "message": "Cannot transition from 2020 to 2030",
+                    "event_index": 7
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP033",
+            "status": "invalid",
+            "current_status": "2030",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "2000",
+                    "message": "Cannot transition from 1900 to 2000",
+                    "event_index": 5
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2000",
+                    "to_status": "2020",
+                    "message": "Cannot transition from 2000 to 2020",
+                    "event_index": 6
+                },
+                {
+                    "type": "invalid_transition",
+                    "from_status": "2020",
+                    "to_status": "2030",
+                    "message": "Cannot transition from 2020 to 2030",
+                    "event_index": 7
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP034",
+            "status": "invalid",
+            "current_status": "1010",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1010",
+                    "message": "Cannot transition from 1900 to 1010",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP035",
+            "status": "invalid",
+            "current_status": "1220",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1220",
+                    "message": "Cannot transition from 1900 to 1220",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP036",
+            "status": "invalid",
+            "current_status": "1200",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1200",
+                    "message": "Cannot transition from 1900 to 1200",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP037",
+            "status": "invalid",
+            "current_status": "1220",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1220",
+                    "message": "Cannot transition from 1900 to 1220",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP038",
+            "status": "valid",
+            "current_status": "1200",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP039",
+            "status": "valid",
+            "current_status": "1200",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP040",
+            "status": "valid",
+            "current_status": "1200",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP041",
+            "status": "invalid",
+            "current_status": "1220",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1220",
+                    "message": "Cannot transition from 1900 to 1220",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP042",
+            "status": "invalid",
+            "current_status": "1220",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1900",
+                    "to_status": "1220",
+                    "message": "Cannot transition from 1900 to 1220",
+                    "event_index": 5
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP043",
+            "status": "valid",
+            "current_status": "1010",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP044",
+            "status": "valid",
+            "current_status": "1010",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP045",
+            "status": "invalid",
+            "current_status": null,
+            "anomalies": [
+                "Shipment contains no tracking events"
+            ]
+        },
+        {
+            "shipment_no": "SHIP046",
+            "status": "invalid",
+            "current_status": "1900",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1900",
+                    "message": "Cannot transition from 1010 to 1900",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP047",
+            "status": "invalid",
+            "current_status": "1900",
+            "anomalies": [
+                {
+                    "type": "invalid_transition",
+                    "from_status": "1010",
+                    "to_status": "1900",
+                    "message": "Cannot transition from 1010 to 1900",
+                    "event_index": 1
+                }
+            ]
+        },
+        {
+            "shipment_no": "SHIP048",
+            "status": "valid",
+            "current_status": "1220",
+            "anomalies": []
+        },
+        {
+            "shipment_no": "SHIP049",
+            "status": "valid",
+            "current_status": "1220",
+            "anomalies": []
+        }
+    ]
+}
